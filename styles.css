@@ -1,0 +1,90 @@
+body {
+  background-color: powderblue;
+  font-family: Arial, sans-serif; /* Custom font */
+  margin: 0;
+  padding: 0;
+}
+
+.header-footer {
+  background-color: rgb(24, 19, 19);
+  color: rgb(19, 19, 194);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+#menu-nav {
+  background-color: rgb(255, 240, 251);
+  text-align: center;
+  padding: 10px;
+}
+
+#menu-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#menu-nav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+#menu-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#menu-nav ul li a:hover {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.main-content {
+  width: 65%;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: lightgray;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.sidebar:hover {
+  background-color: darkgray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"] {
+  width: 200px;
+  transition: width 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 250px;
+}
+
+footer {
+  margin-top: 20px;
+}
